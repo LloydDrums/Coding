@@ -2,9 +2,9 @@
 
 # I want to do this to get better at coding without relying on artificial intelligence when needed.
 # I have done coding for about two year now, but have not done Python coding in about two years, but I felt like going back to it again.
-# I chose one random year in music (which was 1927) and wanted to make a website of data information I got from the DAHR (Discography of American Historical Recordings):
+# I chose one random year in music (which was 1927) and wanted to make a website of data information I got from the DAHR (Discography of American Historical Recordings).
 
-# I think I'll do the coding first (with the csv import) and the CSS/web building (HyperText MarkupLanguage) afterwards
+# I will do the coding first (with the csv import) and the CSS/web building (HyperText MarkupLanguage) afterwards
 # not sure of what to with the unknown [00-00-1927] and/or dates like these [month-00-1927]
 
 # what I have so far
