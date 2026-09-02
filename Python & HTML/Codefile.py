@@ -94,7 +94,8 @@ def main():
         print("7. Count missing date types") 
         print("8. Count of record company appearances")
         print("9. Count of title appearances")
-        print("10. Exit")
+        print("10. Count of artist(s) appearances")
+        print("11. Exit")
     
         choice = input("Choose whichever option works best").strip # choice with if-else statements for choosing options
         results = []
@@ -146,8 +147,14 @@ def main():
                 count = count_title(title)
                 print(f"\nThe title '{title}' appears {count} time(s).")
                 continue
+
+            case "10": # how many times an artist name shows up
+                            artist = input("Enter the artist: ")
+                            count = count_artist(artist)
+                            print(f"\nThe artist '{artist}' appears {count} time(s).")
+                            continue
         
-            case "10": # exit program
+            case "11": # exit program
                 print("\nGoodbye")
                 break
 
