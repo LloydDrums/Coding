@@ -1,7 +1,7 @@
 # Project Start: May 3, 2026; Project End: Month Day, YYYY
 
-# I want to do this to get better at coding without relying on artificial intelligence when needed (which I rarely do).
-# I have done coding for about two year now, but have not done Python coding in about two years, but I felt like going back to it.
+# I want to do this to get better at coding without relying on artificial intelligence when needed.
+# I have done coding for about two years now, but have not done Python coding in about two years, but I felt like going back to it.
 # I chose one random year in music (which was 1927) and wanted to make a website of data information I got from the DAHR (Discography of American Historical Recordings).
 
 # I will do the coding first (with the csv import) and the CSS/web building (HyperText MarkupLanguage) afterwards
@@ -97,7 +97,7 @@ def main():
         print("10. Count of artist(s) appearances")
         print("11. Exit")
     
-        choice = input("Choose whichever option works best").strip # choice with if-else statements for choosing options
+        choice = input("Choose whichever option works best").strip() # choice with if-else statements for choosing options
         results = []
 
         match choice:
@@ -121,14 +121,12 @@ def main():
                 date = input("Enter a date [mm-dd-yyyy]: ")
                 count = count_date(date)
                 print(f"\nThere were '{count}' recording(s) on {date}.")
-                continue
 
             case "6":
                 missing = find_missing_dates()
                 print("\nRecordings with no date:")
                 for row in missing:
                     print(row)
-                    continue
 
             case "7":
                 completely_unknown, unknown_day = count_missing_date_types()
