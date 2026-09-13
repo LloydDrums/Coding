@@ -44,7 +44,7 @@ def find_missing_dates():
 
         month, day, year = date.split("-")
 
-        # Case 1: completely unknown [00-00-yyyy]
+        # Case 1: completely unknown dates [00-00-yyyy]
         if month == "00" and day == "00":
             missing.append(row)
             continue
