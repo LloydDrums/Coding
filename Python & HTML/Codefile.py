@@ -14,20 +14,23 @@ def load_csv(filepath):
     with open(filepath, newline='', encoding='utf-8') as csvfile:
         return list(csv.DictReader(csvfile))
 
-df = load_csv("1927_Recordings.csv") # CSV file being loaded
+df = load_csv("1927_Recordings.csv") # CSV file being loaded, need to fix FileNotFoundError: [Errno 2] No such file or directory: '1927_Recordings.csv'
 
 # searching function [dates, companies, titles & artists]
+def search(field, value):
+    return[row for row in df if value.lower() in row[field].lower()]
+
 def search_by_date(date): 
-    return[row for row in df if row["date"] == date]
+    return search("date", date)
 
 def search_by_company(company):
-    return[row for row in df if company.lower() in row["company"].lower()]
+    return search("company", company)
 
 def search_by_title(title):
-    return[row for row in df if title.lower() in row["title"].lower()]
+    return search("title", title)
 
 def search_by_artist(artist):
-    return[row for row in df if artist.lower() in row["artist"].lower()]
+    return search("artist", artist)
 
 # counting functions [dates, missing dates, companies, titles]
 def count_date(date):
@@ -80,6 +83,9 @@ def count_company(company):
 
 def count_title(title):
     return len(search_by_title(title))
+
+def count_artist(artist):
+    return len(search_by_artist(artist))
 
 # main program here
 def main():
