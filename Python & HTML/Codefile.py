@@ -3,18 +3,11 @@
 """
 Website of recordings from 1927 with coding.
     I felt like making a site of recordings made in one year. I chose 1927, since I was just started to get into 1920s jazz drumming. 
-    I started in May 2026. Soon to be a college junior soon since currently, it is August. 
-    I figured to use my (okay) knowledge of UI (user interface), UX (user experience) and front-end development from my sophomore college water-monitoring research class.
-    Why I am doing this: I want to get better at coding (without relying on AI when needed). 
-    I only started coding two years ago, but it felt lots of fun to try and learn (mainly Python). 
-    Long story (that I will shorten) is that I have always been a quiet person, but when I am not busy with academic stuff doing computer science (and whenever I can), I read a lot and play drums in my spare time.
-
-How I am currently making it for my own boredom:
-    1. Make a CSV file in VS Code with all data from the Discography of American Historical Recordings (DAHR). Started & ended the data research in May (somehow).
-    2. Check to see if there are any duplicates [date, company, song, matrix number, etc.] to be safe 
-    3. Then do decent coding (I learned) for the UX/UI & front-end development part
-    4. Do the website design/build HTML (HyperText MarkupLanguage) in VS code with some CSS
-    5. Make some edits when needed
+    I started in May 2026. 
+    Wanted to use my (okay) knowledge of UI (user interface), UX (user experience) and front-end development from my sophomore college water-monitoring research class.
+    I want to get better at coding (without relying on AI when needed which so far has been going well). 
+    Started coding two years ago, but it felt lots of fun to try and learn (mainly Python). 
+    Quiet person, but when I am not busy with computer science (and whenever I can), I read a lot and play drums.
 """
 
 # I will do the coding first (with the csv import) and the CSS/web building (HyperText MarkupLanguage) afterwards
