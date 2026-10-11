@@ -15,12 +15,14 @@ Website of recordings from 1927 with coding.
 
 # what I have so far
 import csv
+from pathlib import Path # use script directory to fix CSV
 
 def load_csv(filepath):
     with open(filepath, newline='', encoding='utf-8') as csvfile:
         return list(csv.DictReader(csvfile))
 
-df = load_csv("1927_Recordings.csv") # CSV file being loaded, need to fix FileNotFoundError: [Errno 2] No such file or directory: '1927_Recordings.csv'
+csv_path = Path(__file__).parent /"1927_Recordings.csv" # CSV file being loaded
+df = load_csv(csv_path)
 
 # searching function [dates, companies, titles & artists]
 def search(field, value):
