@@ -118,18 +118,42 @@ def main():
             case "1":
                 date = input("Enter a date [mm-dd-yyyy]:")
                 results = search_by_date(date)
+                print("\nResults:")
+                if not results:
+                    print("No recordings found")
+                else:
+                    for row in results:
+                        print(row)
 
             case "2":
                 company = input("Enter the name of the recording company:")
                 results = search_by_company(company)
-
+                print("\nResults:")
+                if not results:
+                    print("No recordings found")
+                else:
+                    for row in results:
+                        print(row)
+                
             case "3":
                 title = input("Enter a title:")
                 results = search_by_title(title)
-
+                print("\nResults:")
+                if not results:
+                    print("No recordings found")
+                else:
+                    for row in results:
+                        print(row)
+        
             case "4":
                 artist = input("Enter the name(s) of the artist(s):")
                 results = search_by_artist(artist)
+                print("\nResults:")
+                if not results:
+                    print("No recordings found")
+                else:
+                    for row in results:
+                        print(row)
                 
             case "5": # how much was recorded on a specific date
                 date = input("Enter a date [mm-dd-yyyy]: ")
@@ -173,14 +197,6 @@ def main():
             case _:
                 print("Your choice is invalid")
                 continue
-
-# printing results only for options 1 to 4
-print("\nResults:")
-if not results:
-    print("No recordings found")
-else:
-    for row in results:
-        print(row)
 
 # end of file
 if __name__ == "__main__":
