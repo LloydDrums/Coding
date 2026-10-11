@@ -130,7 +130,7 @@ def main():
             case "4":
                 artist = input("Enter the name(s) of the artist(s):")
                 results = search_by_artist(artist)
-
+                
             case "5": # how much was recorded on a specific date
                 date = input("Enter a date [mm-dd-yyyy]: ")
                 count = count_date(date)
@@ -174,13 +174,13 @@ def main():
                 print("Your choice is invalid")
                 continue
 
-    # printing results only for options 1 to 4
-    print("\nResults:")
-    if not results:
-        print("No recordings found")
-    else:
-        for row in results:
-            print(row)
+# printing results only for options 1 to 4
+print("\nResults:")
+if not results:
+    print("No recordings found")
+else:
+    for row in results:
+        print(row)
 
 # end of file
 if __name__ == "__main__":
