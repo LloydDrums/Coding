@@ -5,7 +5,7 @@ Website of recordings from 1927 with coding.
     I felt like making a site of recordings made in one year. I chose 1927, since I was just started to get into 1920s jazz drumming. 
     I started in May 2026. 
     I will use my knowledge of UI (user interface), UX (user experience) and front-end development from my sophomore college water-monitoring research class.
-    I want to get better at coding (without relying on AI when needed; which so far has been going well). 
+    I want to get better at coding without relying on AI when needed; (which so far has been going well). 
     Started coding two years ago, but it felt lots of fun to try and learn (mainly Python). 
     Quiet person, but when I am not busy with computer science (and whenever I can), I read a lot and play drums.
 """
