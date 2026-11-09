@@ -9,7 +9,7 @@ Website of recordings from 1927 with coding.
         I chose the year 1927, since I just started to get into 1920s jazz drumming. 
     
     I will use my knowledge of UI (user interface) and front-end development from my sophomore college water-monitoring research class.
-    I will admit that around Oct. 2025, I used some Copilot for me to break down an issue, but I don't use much of it.  
+    I will admit that around Oct. 2025, I used some Copilot to break down an issue, but I don't use much of it except when needed.  
 """
 
 # I will do the coding first (with the csv import) and the CSS/web building (HyperText MarkupLanguage) afterwards
