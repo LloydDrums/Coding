@@ -64,7 +64,7 @@ def find_missing_dates():
         if month != "00" and day == "00":
             missing.append(row)
     
-    return missing
+    return missing # this will return all the missing dates
 
 def count_missing_date_types():
     """Return (completely_unknown, unknown_day)."""
