@@ -1,4 +1,5 @@
-# Project Start: May 3, 2026; Project End: Month Day, YYYY
+# Project Started: May 3, 2026
+# Project End: Month Day, YYYY
 
 """
 Website of recordings from 1927 with coding and some CSS/HTML stuff.
