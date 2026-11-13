@@ -174,25 +174,25 @@ def main():
                 print(f"Known month, unknown day [mm-00-yyyy]: {unknown_day}")
                 continue
 
-            case "8": # how many times a recording company name shows up
+            case "8": # amount of times a recording company name shows up
                 company = input("Enter the recording company name: ")
                 count = count_company(company)
                 print(f"\nThe company '{company}' appears {count} time(s).")
                 continue
         
-            case "9": # how many times a title shows up
+            case "9": # amount of times a title shows up
                 title = input("Enter the title: ")
                 count = count_title(title)
                 print(f"\nThe title '{title}' appears {count} time(s).")
                 continue
 
-            case "10": # how many times an artist name shows up
+            case "10": # amount of times an artist name shows up
                             artist = input("Enter the artist: ")
                             count = count_artist(artist)
                             print(f"\nThe artist '{artist}' appears {count} time(s).")
                             continue
         
-            case "11": # exit program
+            case "11": # exits the program
                 print("\nGoodbye")
                 break
 
