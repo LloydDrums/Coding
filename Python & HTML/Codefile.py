@@ -1,19 +1,19 @@
 # Project Start: May 3, 2026; Project End: Month Day, YYYY
 
 """
-Website of recordings from 1927 with coding.
-    I want to get better at coding; I started coding two years ago, but it felt lots of fun to try and learn (mainly Python).
+Website of recordings from 1927 with coding and some CSS/HTML stuff.
+    I wanted to get better at coding. I started coding two years ago, but it felt lots of fun to try and learn (mainly Python).
         Quiet person, but when I am not busy with computer science (and whenever I can), I read a lot and play drums.
 
-    So, I started this project in May 2026, where I felt like making a website of recordings made in one year. 
-        I chose the year 1927, since I just started to get into 1920s jazz drumming. 
+    I started this project in May 2026, where I felt like making a website of recordings made in one year. 
+        I chose the year 1927, since it was random, but I just started to get into 1920s jazz drumming. 
     
-    I will use my knowledge of UI (user interface) and front-end development from my sophomore college water-monitoring research class to do it.
-    I also rarely use AI except when needed.  
-"""
+    I used my knowledge of UI (user interface) & front-end development from my sophomore college water-monitoring research class for it.
+    I also rarely use AI except when needed.
 
-# I will do the coding first (with the csv import) and the CSS/web building (HyperText MarkupLanguage) afterwards
-# I am not sure of what to with the unknown [00-00-1927] and/or dates like these [month-00-1927]
+    I will do the coding first (with the csv import) and the CSS/web building (HyperText MarkupLanguage) afterwards
+    I am not sure of what to with the unknown [00-00-1927] and/or dates like these [month-00-1927]
+"""
 
 # what I have so far
 import csv # csv import
