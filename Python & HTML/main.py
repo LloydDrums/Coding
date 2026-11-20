@@ -5,23 +5,13 @@
 Website of recordings from 1927 with coding and some CSS/HTML stuff.
     I wanted to get better at coding. I started coding two years ago, but it felt lots of fun to try and learn (mainly Python).
         Quiet person, but when I am not busy with computer science (and whenever I can), I read a lot and play drums.
+        I made a site of recordings from the year 1927, just got into 1920s drumming.
     
     I used my knowledge of UI (user interface) & front-end development from my sophomore college water-monitoring research class for it.
     I also rarely use AI except when needed.
 
     I will do the coding first (with the csv import) and the CSS/web building (HyperText MarkupLanguage) afterwards
     I am not sure of what to with the unknown [00-00-1927] and/or dates like these [month-00-1927]
-    I got bored around May of 2026.
-    I decided to code/make a site of recordings from 1927 for fun (introvert with lack of social life and does classwork a lot (I should get out more).
-
-        Anyway, whenever I'm not doing classwork (or contemplating if I chose CS as the wrong major), I read books (and play drums) in my spare time and for this project, I also drummed to some those recordings from that year.
-        In my drumming analysis of 1920s drumming for dance-bands, here's what I found:
-        
-        In 1920s dance-band drumming, most drummers used the snare drum and cymbal to keep time. 
-        The bass drum was in 2/4, press rolls with drumsticks and brushwork (both on the snare) created a light 4/4 feel
-        The cymbal, woodblock, and tom-tom were used as rhythmic fills and/or patterns whenever a drummer felt like using them at the right time. 
-        When reading 1920s drum charts, the notation is relatively simple; the charts were not meant to be played exactly as written, but rather served as roadmaps to show where rhythms and structural breaks occured. 
-        Overall, if you can keep a steady time feel, practice, read music, and add your own style (when needed), it can go a long way. 
 """
 
 # what I have so far
